@@ -1,0 +1,36 @@
+
+<div class="overley"></div>
+<div class="contact-banner">
+  <div id="about" style="margin-top: -100px;">
+    <h2 style="padding-top: 35px;" id="projectText">Web Projects</h2>
+  </div>
+<div style="margin: 100px 50px;" class="project-container">
+  <!-- Project 1 -->
+  <div *ngFor="let p of defaultProjects">
+
+  <div class="project-card">
+    <img class="project-image" src="{{p.projectImage}}" alt="Project 1">
+    <div id="card-cover">
+      <h2>{{p.projectName}}</h2>
+      <h3 style=" color: #0047e0;"><i>{{p.appType}}</i></h3>
+      <p class="des">{{p.projectDescription}}</p>
+      <p>
+        <strong>Project URL: &nbsp; </strong>
+        <a target="_blank" style="  color: inherit;" href="{{p.projectLiveUrl}}">{{p.projectLiveUrl}}</a>
+      </p>
+      <p>
+        <strong>GitHub Repository: &nbsp; </strong>
+        <a  target="_blank" style="  color: inherit;" href="{{p.projectGithubLink}}">{{p.projectGithubLink}}</a>
+      </p>
+      <p class="pLang">
+        <strong>Programing Languages Used: &nbsp; </strong>
+          <span>{{p.programingLanguagesUsed}}</span>
+      </p>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<div class="vertical-line"></div>
+</div>
