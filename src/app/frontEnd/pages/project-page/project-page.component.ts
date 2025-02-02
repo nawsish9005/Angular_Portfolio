@@ -25,13 +25,10 @@ export class ProjectPageComponent  implements OnInit{
       }
     )
   }
-
-
-
   
   defaultProjects =[
     {
-      "projectImage": "",
+      "projectImage": "https://pradeepl.com/blog/jwt/JWT-Cover.png",
       "projectName":"JWT Token",
       "appType":"Web Application API",
       "projectDescription":"This is My First Full Project With Rest Api and Angular. This is a project with authentication with JWT Token.",
