@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,10 +14,12 @@ import { AboutPageComponent } from './frontEnd/pages/about-page/about-page.compo
 import { LoginComponent } from './admin/login/login.component';
 import { AddProjectComponent } from './admin/add-project/add-project.component';
 import { AllProjectsComponent } from './admin/all-projects/all-projects.component';
-import { FormsModule } from '@angular/forms';
+
 import { HeaderComponent } from './frontEnd/pages/header/header.component';
 import { FooterComponent } from './frontEnd/pages/footer/footer.component';
 import { EditProjectsComponent } from './admin/edit-projects/edit-projects.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({

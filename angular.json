@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MyPortfolioProject_Angular": {
+    "Angular_Portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/Angular_Portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MyPortfolioProject_Angular:build:production"
+              "browserTarget": "Angular_Portfolio:build:production"
             },
             "development": {
-              "browserTarget": "MyPortfolioProject_Angular:build:development"
+              "browserTarget": "Angular_Portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MyPortfolioProject_Angular:build"
+            "browserTarget": "Angular_Portfolio:build"
           }
         },
         "test": {

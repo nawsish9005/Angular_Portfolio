@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
 import { AboutPageComponent } from './frontEnd/pages/about-page/about-page.component';
 import { ContactPageComponent } from './frontEnd/pages/contact-page/contact-page.component';
 import { HomePageComponent } from './frontEnd/pages/home-page/home-page.component';
@@ -8,6 +7,7 @@ import { LoginComponent } from './admin/login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { AddProjectComponent } from './admin/add-project/add-project.component';
 import { AllProjectsComponent } from './admin/all-projects/all-projects.component';
+import { RouterModule, Routes } from '@angular/router';
 
 
 
